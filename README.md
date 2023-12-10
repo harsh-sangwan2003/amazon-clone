@@ -4,8 +4,6 @@
 
 A quick guide to my Project ->
 
-<img src = "/image.webp">
-
 ## Tools Used
 
 - Node JS
@@ -37,7 +35,7 @@ You may also see any lint errors in the console.
 
 ## Usage
 
-This project is a clone of HasteBin.
+The 'Amazon Clone' project mirrors Amazon's functionality using React.js, Firebase, and Stripe API. Replicating the user experience, it showcases products, carts, and secure payments.
 
 Click on
 
