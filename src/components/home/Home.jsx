@@ -10,16 +10,18 @@ function Home() {
                 <img className='home__image' alt="hero image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg" />
 
                 <div className="home__row">
-                    <Product/>
-                    {/* <Product/> */}
+                    <Product />
+                    <Product />
                 </div>
 
                 <div className="home__row">
-
+                    <Product />
+                    <Product />
+                    <Product />
                 </div>
 
                 <div className="home__row">
-
+                    <Product />
                 </div>
 
             </div>
