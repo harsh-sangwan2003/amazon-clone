@@ -10,7 +10,7 @@ function Home() {
                 <img className='home__image' alt="hero image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg" />
 
                 <div className="home__row">
-                    <Product title="The lean startup" price={29.99} rating={5} image="https://www.adorebooks.in/wp-content/uploads/2022/02/Untitled-design-2022-03-08T004033.655-800x800.jpg" />
+                    <Product title="The lean startup: How constant Innovation Creates Radically Successful Businesses Paerback" price={29.99} rating={5} image="https://www.adorebooks.in/wp-content/uploads/2022/02/Untitled-design-2022-03-08T004033.655-800x800.jpg" />
                     <Product title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl" price={239} rating={5} image="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/510uEUwLn-L._AC_UF894,1000_QL80_.jpg" />
                 </div>
 
