@@ -1,23 +1,27 @@
 import React from 'react'
 import './Product.css'
 
-const Product = () => {
+const Product = ({ title, price, rating, image }) => {
     return (
         <div className='product'>
 
             <div className="product__info">
 
-                <p>The lean startup</p>
+                <p>{title}</p>
                 <p className="product__price">
                     <small>$</small>
-                    <strong>11.96</strong>
+                    <strong>{price}</strong>
                 </p>
                 <div className="product__rating">
-                    <p>🌟🌟🌟</p>
+                    {
+                        Array(rating).fill().map((_, i) => (
+                            <p>🌟</p>
+                        ))
+                    }
                 </div>
             </div>
 
-            <img src="https://www.adorebooks.in/wp-content/uploads/2022/02/Untitled-design-2022-03-08T004033.655-800x800.jpg" alt="startup" />
+            <img src={image} alt="startup" />
 
             <button>Add to Basket</button>
 
