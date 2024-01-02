@@ -7,9 +7,14 @@ const Checkout = () => {
 
             <div className="checkout__left">
                 <img src="https://paxcom.ai/wp-content/uploads/2016/06/banner.png" className='checkout__ad' alt="" />
+
+                <div>
+                    <h2 className='checkout__title'>Your shopping Basket</h2>
+                </div>
             </div>
+
             <div className="checkout__right">
-                <h2 className='checkout__title'>Your shopping Basket</h2>
+                <h2>The subtotal will go here</h2>
             </div>
 
         </div>
