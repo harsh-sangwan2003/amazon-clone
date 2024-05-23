@@ -1,6 +1,6 @@
 # Amazon Clone
 
-- [Link]()
+- Currently working on this project!!
 
 A quick guide to my Project ->
 
